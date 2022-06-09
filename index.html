@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="Find services and applications that are stored on, or utilize, Bitcoin SV Blockchain Satoshi's Vision" content="" />
+        <meta name="NFTMarket" content="" />
+        <title>NFTMarket</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        
+
+<style>
+
+    body {
+background-color: #F6F8FE;
+align-items: center; 
+margin:10px;
+    }
+
+* {
+    box-sizing: border-box; padding: 1px;
+}
+
+}
+html {
+  height: 100%;
+}
+
+
+    /* The CSS you'll need in your website MONEY BUTTON */
+    #unlockable {
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 5s;
+    }
+    #unlockable.unlocked {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+.column-left {
+    height: 100%;
+    width: 15%;
+    margin: 10px;
+    position: fixed;
+    z-index: 999;
+    top: 30px;
+    left: 70px;
+    background-color: white;
+    border:5px solid black;
+    border-radius:12px;
+    overflow-x: hidden;
+    padding-top: 10px;
+    padding-left:10px;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 12px 30px 0 rgba(0,0,0,0.19);
+}
+
+.column-right {
+    height: 100%;
+    width: 15%;
+    margin: 10px;
+    position: fixed;
+    z-index: 999;
+    top: 30px;
+    right: 70px;
+    background-color: white;
+    border:5px solid black;
+    border-radius:12px;
+    overflow-x: hidden;
+    padding-top: 10px;
+    padding-left:10px;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 12px 30px 0 rgba(0,0,0,0.19);
+}
+.column-middle{
+    background-color: white;
+    height: 100%;
+    width:55%;
+    margin-top:20px;
+    padding-top: 10px;
+    padding-left:10px;
+    flex-wrap: wrap;
+    border:5px solid black;
+   border-radius:12px;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 12px 30px 0 rgba(0,0,0,0.19);
+    }
+    
+.postAd {
+    width:10%;
+    height:32%;
+    float:left;
+    background-color:#DAEBF2;
+    text-align:center;
+    display:inline-block;
+    margin:.5%;
+    overflow: auto;
+}
+
+.postAd img {
+    width:80%;
+    height:80%;*/     
+}
+.classWithPad { margin:10px; padding:10px; }
+
+    .button {
+  background-color: #3fa9f5; /* Green */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+    cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+display: inline-block;
+
+}
+
+.button4:hover {
+    background-color: #0b85dc;
+    color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 12px 30px 0 rgba(0,0,0,0.19);
+    }
+    .button4 {border-radius: 12px;}
+    
+    .button5:hover {
+    background-color: #00008B;
+        color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 12px 30px 0 rgba(0,0,0,0.19);
+    }
+    .button5 {border-radius: 12px;
+    background-color: #0000ED;
+       
+    }
+    
+       .button6:hover {
+    background-color: #00008B;
+        color: white;
+           font-size: 14px;
+           padding: 14px;
+        border-radius: 12px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 12px 30px 0 rgba(0,0,0,0.19);
+    }
+    .button6 {border-radius: 12px;
+width: 150px;
+        height: 50px;
+        font-size: 12px;
+        padding: 12px;
+    background-color: #0000ED;
+       
+    }
+    img {
+  border: 5px solid #555;
+}
+video {
+  border: 5px solid #555;
+}
+    
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Modal</title>
+         
+ body {
+      width: 50%;
+      margin: 10vh auto;
+      /* System default fonts */
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    }
+    code {
+      color: deeppink;
+      /* Baseline shift */
+      position: relative;
+      top: -0.05em;
+    }
+    pre {
+      color: lightseagreen;
+    }
+    blockquote {
+      background-color: #eee;
+      padding: 1em;
+      border-radius: 1em;
+      margin: 1em 0;
+    }
+
+    /* The CSS you'll need in your website */
+    #unlockable {
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 5s;
+    }
+    #unlockable.unlocked {
+      visibility: visible;
+      opacity: 1;
+    }
+        </style>
+
+<script>
+    /* The Javascript you'll need in your website */
+    function handleSuccessfulPayment (payment) {
+      unlockContent();
+    }
+    function handleFailedPayment (error) {
+      alert("Sorry, the payment did not process correctly.")
+    }
+    function unlockContent () {
+      document.getElementById("unlockable").classList.toggle("unlocked");
+    }
+  </script>
+       
+    </head>
+
+<body>
+
+
+    <!--left side content-->
+    <div class="container">
+        
+<div class="column-left mx-auto col-md-6">
+    <Center><h5><b>Options</b></h5>
+     <a href='https://twitter.com/asicbmf'>
+ <button class="button button6" 
+                >Newsletter Boost</button></a>
+ <a href='https://twitter.com/asicbmf'>
+ <button class="button button6" 
+                >Tweet Boost</button></a>
+ <a href='https://twitter.com/asicbmf'>
+ <button class="button button6" 
+                >Boost to TOP</button></a></Center>
+    
+    
+</div>
+
+<!--middle content-->
+<center> <h2><b>Browse Collections</b></h2></center>
+
+   <center>      
+<script src="https://one.relayx.io/relayone.js"></script>
+<div id="relayx-button"></div>
+<script>
+  const div = document.querySelector('#relayx-button')
+  relayone.render(div, {
+    to: "digitalcurrencydaily@relayx.io",
+    amount: "0.01",
+    currency: "USD"
+  })
+</script></center>
+        
+    
+
+<Center>
+<button type="button" class="button button5" data-toggle="modal" data-target="#exampleModal">
+    Submit NFT
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Submit your NFT</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+<!-- Free content -->
+<p>Pay fee to list NFT in gallery</p>
+
+<p><em>Slide the Money Button to continue</em></p>
+
+<!-- Money Button -->
+<div class="money-button"
+ data-to="21534"
+  data-amount="5.00"
+  data-currency="CAD"
+  data-label=""  data-client-identifier="9981645a3e83f2941b9574288e85d182"data-button-id="1654736646372"
+  data-button-data="{}"
+  data-type="buy"
+  data-on-payment="handleSuccessfulPayment"
+  data-on-error="handleFailedPayment"
+  data-dev-mode="false"
+></div>
+
+<!-- Hidden content -->
+<div id="unlockable">
+  <!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:300px;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://linktr.us14.list-manage.com/subscribe/post?u=7a433169dbb29c2ae1a1982b1&amp;id=3392271e5c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Submit NFT</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-MMERGE3">NFT Collection OR Order URL  <span class="asterisk">*</span>
+</label>
+	<input type="text" value="" name="MMERGE3" class="required" id="mce-MMERGE3">
+</div>
+<div class="mc-field-group">
+	<label for="mce-MMERGE4">RelayX Paymail  <span class="asterisk">*</span>
+</label>
+	<input type="text" value="" name="MMERGE4" class="required" id="mce-MMERGE4">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7a433169dbb29c2ae1a1982b1_3392271e5c" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='MMERGE2';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+
+</Center>
+            
+            
+          </div>
+<script src="https://www.moneybutton.com/moneybutton.js"></script>
+
+<div class="column-middle mx-auto col-md-8">
+   <center>
+   <video width="320" height="240" controls loop autplay
+          >
+  <source src="assets/img/video.mp4" type="video/mp4">
+</video>
+       
+    <p>Popsicle Stick #179</p>
+<a href='https://relayx.com/assets/4de59ac72eef7e6bc72403612555959c0991cac4b70964f53233458041942641_o2/df04e40bdcc873b0884544663f3b71de146cea685c4fa8cfe839c0a23ac49306_o3'>
+ <button class="button button4" 
+                >Buy Now</button></a>
+       
+       
+       
+       
+       
+       
+       
+<!-- Button trigger modal -->
+<button type="button" class="button button5" data-toggle="modal" data-target="#Modal1">
+    Tip Artist!
+  </button>
+  
+        <!-- Modal -->
+  <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Modal1Label">Send a tip using Handcash.me</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+            <Center><iframe src="https://handcash.me/digitalcurrencydaily" height="500" width="300" title="Iframe Example"></iframe></Center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+     
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    
+       <a href='https://twitter.com/asicbmf'>
+ <button class="button button4" 
+                >Follow Artist</button></a>
+    </center>
+         
+
+        </div>
+    
+<!--middle content-->
+<div class="column-middle mx-auto col-md-8">
+
+   <center>
+   <img src="assets/img/glasses2.png"
+        width="240"; height="240";>
+       
+    <p>ApeHead Genesis</p>
+<a href='https://relayx.com/assets/4de59ac72eef7e6bc72403612555959c0991cac4b70964f53233458041942641_o2/df04e40bdcc873b0884544663f3b71de146cea685c4fa8cfe839c0a23ac49306_o3'>
+ <button class="button button4" 
+                >Buy Now</button></a>
+       
+       
+       
+       
+       
+       
+       
+<!-- Button trigger modal -->
+<button type="button" class="button button5" data-toggle="modal" data-target="#Modal1">
+    Tip Artist!
+  </button>
+  
+        <!-- Modal -->
+  <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Modal1Label">Send a tip using Handcash.me</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+            <Center><iframe src="https://handcash.me/digitalcurrencydaily" height="500" width="300" title="Iframe Example"></iframe></Center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+     
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    
+     <a href='https://twitter.com/asicbmf'>
+ <button class="button button4" 
+                >Follow Artist</button></a>
+    </center>
+         
+        </div>
+<!--right side content-->
+
+    <div class="column-right mx-auto col-md-6">
+    
+    <center><h5><b>Explore Socials</b></h5>
+<a href='https://twitter.com/asicbmf'>
+ <button class="button button6" 
+                >Follow on Twitter</button></a>
+
+    <p>Additional Information</p></center></div>
+    
+    
+      </div>
+    </body>
+</html>
