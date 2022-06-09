@@ -213,13 +213,13 @@ video {
 
 <script>
     /* The Javascript you'll need in your website */
-    function handleSuccessfulPayment (payment) {
+    function onPayment (payment) {
       unlockContent();
     }
-    function handleFailedPayment (error) {
+    function onError (error) {
       alert("Sorry, the payment did not process correctly.")
     }
-    function unlockContent () {
+    function unlockContent2 () {
       document.getElementById("unlockable").classList.toggle("unlocked");
     }
   </script>
@@ -258,9 +258,20 @@ video {
   relayone.render(div, {
     to: "digitalcurrencydaily@relayx.io",
     amount: "0.01",
-    currency: "USD"
+    currency: "USD",
+    onPayment: "handleSuccessfulPayment",
+    onError= "handleFailedPayment",
+  
   })
-</script></center>
+</script>
+        
+        <div id="unlockable2">
+
+Follow on Twitter
+       </div>
+            
+            
+            </center>
         
     
 
