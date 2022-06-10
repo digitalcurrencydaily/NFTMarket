@@ -214,13 +214,13 @@ video {
 <script>
     /* The Javascript you'll need in your website */
     function onPayment (payment) {
-      unlockContent2();
+      unlockContent();
     }
     function onError (error) {
       alert("Sorry, the payment did not process correctly.")
     }
-    function unlockContent2 () {
-      document.getElementById("unlockable").classList.toggle("unlocked");
+    function unlockContent () {
+        document.getElementById("unlockable").classList.toggle("unlocked");
     }
   </script>
        
@@ -259,7 +259,7 @@ video {
     to: "digitalcurrencydaily@relayx.io",
     amount: "0.01",
     currency: "USD",
-    onPayment: "unlockContent2",
+    onPayment: "unlockContent",
   })
 </script>
         
@@ -267,9 +267,9 @@ video {
              class="button button5">
 
 
-Follow on rrr
+Follow on ww
        </div>
-            
+          wwwww  
             
             </center>
         
