@@ -51,12 +51,12 @@ html {
     
 .column-left {
     height: 100%;
-    width: 22%;
+    width: 15%;
     margin: 10px;
     position: fixed;
     z-index: 999;
     top: 30px;
-    left: 2px;
+    left: 20px;
     background-color: white;
     border:5px solid black;
     border-radius:12px;
@@ -68,12 +68,12 @@ html {
 
 .column-right {
     height: 100%;
-    width: 22%;
+    width: 15%;
     margin: 10px;
     position: fixed;
     z-index: 999;
     top: 30px;
-    right: 1px;
+    right: 20px;
     background-color: white;
     border:5px solid black;
     border-radius:12px;
@@ -154,7 +154,7 @@ display: inline-block;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 12px 30px 0 rgba(0,0,0,0.19);
     }
     .button6 {border-radius: 12px;
-width: 100%;
+width: 50px;
         height: 50px;
         font-size: 12px;
         padding: 1px;
@@ -250,8 +250,7 @@ video {
     <div class="container">
         <div class="row">
 <div class="column-left mx-auto col-xs-md-">
-    <Center><h8><b>Boost it</b></h8>
-<br>
+    <Center><h6><b>Boost it</b></h6>
      <a href='https://twitter.com/asicbmf'>
  <button class="button button6" 
                 >News</button></a>
@@ -263,19 +262,22 @@ video {
  <a href='https://twitter.com/asicbmf'>
  <button class="button button6" 
                 >Top</button></a></Center>
+
+ <center><h6><b>Socials</b></h6>
+        <br>
+<a href='https://twitter.com/asicbmf'>
+ <button class="button button6" 
+                >Twitter</button></a>
     
     
 </div>
 
 <!--middle content-->
-<center> <h6><b>Browse Collections</b></h6></center>
 
- 
-    
 
 <Center>
 <button type="button" class="button button7" data-toggle="modal" data-target="#exampleModal">
-    Submit NFT
+    Submit NFT (Fee)
   </button>
   
   <!-- Modal -->
@@ -354,11 +356,13 @@ video {
             
           </div>
 <script src="https://www.moneybutton.com/moneybutton.js"></script>
+<center> <h6><b>Browse Collections</b></h6></center>
+
 <div class="row">
 
 <div class="column-middle mx-auto col-xs-md-">
    <center>
-   <video width="100%" height="25%" controls loop autplay
+   <video width="50%" height="25%" controls loop autplay
           >
   <source src="assets/img/video.mp4" type="video/mp4">
 </video>
@@ -419,7 +423,7 @@ video {
 
 
    <img src="assets/img/glasses2.png"
-        width="100%"; height="25%";>
+        width="50%"; height="25%";>
        
     <p>ApeHead Genesis</p>
 <a href='https://relayx.com/assets/4de59ac72eef7e6bc72403612555959c0991cac4b70964f53233458041942641_o2/df04e40bdcc873b0884544663f3b71de146cea685c4fa8cfe839c0a23ac49306_o3'>
@@ -472,14 +476,19 @@ video {
 
     <div class="column-right mx-auto col-xs-md-">
     
-    <center><h8><b>Socials</b></h8>
-        <br>
-<a href='https://twitter.com/asicbmf'>
- <button class="button button6" 
-                >Twitter</button></a>
+   
 
-    <p>Additional Information</p></center></div>
-    
+    <center><h6><b>Fund Features</b></h6></center></div>
+    <script src="https://one.relayx.io/relayone.js"></script>
+<div id="relayx-button"></div>
+<script>
+  const div = document.querySelector('#relayx-button')
+  relayone.render(div, {
+    to: "digitalcurrencydaily@relayx.io",
+    amount: "0.001",
+    currency: "BSV",
+    })
+</script>
     </div>
       </div>
     </body>
