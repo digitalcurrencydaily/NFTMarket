@@ -157,6 +157,7 @@ display: inline-block;
     .button6 {border-radius: 12px;
 width: 90px;
         height: 50px;
+border: 3px solid black;
         font-size: 14px;
         padding: 1px;
     background-color: #0000ED;
@@ -166,6 +167,7 @@ width: 90px;
      .button7:hover {
     background-color: #00008B;
         color: white;
+border: 3px solid black;
            font-size: 14px;
            padding: 1px;
         border-radius: 12px;
@@ -173,6 +175,7 @@ width: 90px;
     }
     .button7 {border-radius: 12px;
 width: 150px;
+border: 3px solid black;
         height: 50px;
         font-size: 14px;
         padding: 1px;
@@ -358,7 +361,16 @@ video {
           </div>
 <script src="https://www.moneybutton.com/moneybutton.js"></script>
 <center> <h6><b>Browse Collections</b></h6></center>
-
+<script src="https://one.relayx.io/relayone.js"></script>
+<div id="relayx-button"></div>
+<script>
+  const div = document.querySelector('#relayx-button')
+  relayone.render(div, {
+    to: "digitalcurrencydaily@relayx.io",
+    amount: "0.218",
+    currency: "BSV"
+  })
+</script>
 <div class="row">
 
 <div class="column-middle mx-auto col-xs-md-">
