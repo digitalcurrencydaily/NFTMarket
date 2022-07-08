@@ -50,41 +50,12 @@ html {
       opacity: 1;
     }
     
-.column-left {
-    height: 75%;
-    width: 25%;
-    margin: 10px;
-    position: fixed;
-    top: 30px;
-    left: 5px;
-    background-color: white;
-    border:5px solid black;
-    border-radius:12px;
-    overflow-x: hidden;
-    padding-top: 10px;
-    padding-left:0px;
-     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 12px 30px 0 rgba(0,0,0,0.19);
-}
 
-.column-right {
-    height: 75%;
-    width: 25%;
-    margin: 10px;
-    position: fixed;
-    top: 30px;
-    right: 5px;
-    background-color: white;
-    border:5px solid black;
-    border-radius:12px;
-    overflow-x: hidden;
-    padding-top: 10px;
-    padding-left:0px;
-     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 12px 30px 0 rgba(0,0,0,0.19);
-}
+
 .column-middle{
     background-color: white;
     height: 100%;
-    width:46%;
+    width:40%;
     margin-top:20px;
     padding-top: 10px;
     padding-left:10px;
@@ -251,116 +222,12 @@ video {
     <!--left side content-->
     <div class="container">
         <div class="row">
-<div class="column-left mx-auto col-xs-md-">
-    <center><h6><b>Boost it</b></h6></center>
 
-<center><button type="button" class="button button7" data-toggle="modal" data-target="#exampleModal4">
-    Newsletter Push </button></center>
-        <br>
- <center><a href='https://tweetengagement.com'>
- <button class="button button7" 
-                >Tweet Engagement</button></a></center>
-        <br>
- <center><a href='https://twitter.com/asicbmf'>
- <button class="button button7" 
-                >Push to Top</button></a></center>
-<br>
-    <center><h6><b>Socials</b></h6></center>
-
-<center><a href='https://twitter.com/asicbmf'>
- <button class="button button7" 
-                >Twitter</button></a></center>
-    
-    
-</div>
 
 <!--middle content--><center>
 
   </center>
-  <!-- Modal for feature fundings-->
-  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h6 class="modal-title" id="exampleModal3Label">Fund the features you want!</h6>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-<center> <b>Fund RUN Development with JIG listings.
-<br>0/125 BSV</b>
-<script src="https://one.relayx.io/relayone.js"></script>
-<div id="relayx-button"></div>
-<script>
-  const div = document.querySelector('#relayx-button')
-  relayone.render(div, {
-    to: "featurefunding@relayx.io",
-    amount: "0.218",
-    currency: "BSV"
-  })
-</script>
-<b>Fund Money Button Development
-<br>0/125 BSV<br></b>
-<!-- This line should go where you want to put your button -->
-<div class="money-button"
-  data-to="21534"
-  data-amount="0.218"
-  data-currency="BSV"
-  data-label=""  data-client-identifier="9981645a3e83f2941b9574288e85d182"data-button-id="1655928113233"
-  data-button-data="{}"
-  data-type="buy"
-></div>
-<center><b>Enter the amount you would like to fund</b></center>
-<div class="money-button"
-  data-to="21534"
-  data-editable="true"
-  data-currency="BSV"
-  data-label=""  data-client-identifier="9981645a3e83f2941b9574288e85d182"data-button-id="1655928113233"
-  data-button-data="{}"
-  data-type="buy"
-></div>
-
-</center>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="button button5" data-dismiss="modal">Close</button>
-        
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-
- <!-- Modal for feature fundings-->
-  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModal4Label" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h6 class="modal-title" id="exampleModal4Label">Newsletter Push</h6>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-<center> Boost your NFT listing to our Email Newsletter subscribers.
-<br>(coming soon)
-
-</center>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="button button5" data-dismiss="modal">Close</button>
-        
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-
+  
 <Center>
 
   
@@ -369,22 +236,93 @@ video {
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Submit your NFT</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Purchase Hoodie </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
 <!-- Free content -->
-<p>Pay fee to list NFT in gallery. <br> You can provide basic information after completing the payment.</p>
+<p>If you wish to purchase this hoodie, Please provide the shipping address below and swipe the Money Button payment to process your order..</p>
 
-<p><em>Slide the Money Button to continue</em></p>
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:375px;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://linktr.us14.list-manage.com/subscribe/post?u=7a433169dbb29c2ae1a1982b1&amp;id=3392271e5c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Purchase Hoodie with BSV</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+</div><div class="mc-field-group">
+	<label for="mce-MMERGE9">Select Size  <span class="asterisk">*</span>
+</label>
+	<select name="MMERGE9" class="required" id="mce-MMERGE9">
+	<option value=""></option>
+	<option value="Small">Small</option>
+<option value="Medium">Medium</option>
+<option value="Large">Large</option>
+<option value="Extra-Large">Extra-Large</option>
+
+	</select><br><br>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-address-group">
+	<div class="mc-field-group">
+	    <label for="mce-MMERGE6-addr1">Shipping Address  <span class="asterisk">*</span>
+</label>
+		<input type="text" value="" maxlength="70" name="MMERGE6[addr1]" id="mce-MMERGE6-addr1" class="required">
+	</div>
+	<div class="mc-field-group">
+	    <label for="mce-MMERGE6-addr2">Address Line 2</label>
+		<input type="text" value="" maxlength="70" name="MMERGE6[addr2]" id="mce-MMERGE6-addr2">		
+	</div>
+	<div class="mc-field-group size1of2">
+	    <label for="mce-MMERGE6-city">City</label>
+		<input type="text" value="" maxlength="40" name="MMERGE6[city]" id="mce-MMERGE6-city" class="required">
+	</div>
+	<div class="mc-field-group size1of2">
+	    <label for="mce-MMERGE6-state">State/Province/Region</label>
+	<input type="text" value="" maxlength="20" name="MMERGE6[state]" id="mce-MMERGE6-state" class="required">
+	</div>
+	<div class="mc-field-group size1of2">
+	    <label for="mce-MMERGE6-zip">Postal / Zip Code</label>
+		<input type="text" value="" maxlength="10" name="MMERGE6[zip]" id="mce-MMERGE6-zip" class="required">
+	</div>
+	<div class="mc-field-group size1of2">
+	    <label for="mce-MMERGE6-country">Country</label>
+		<select name="MMERGE6[country]" id="mce-MMERGE6-country" class="required"><option value="164" selected>USA</option><option value="286">Aaland Islands</option><option value="274">Afghanistan</option><option value="2">Albania</option><option value="3">Algeria</option><option value="178">American Samoa</option><option value="4">Andorra</option><option value="5">Angola</option><option value="176">Anguilla</option><option value="175">Antigua And Barbuda</option><option value="6">Argentina</option><option value="7">Armenia</option><option value="179">Aruba</option><option value="8">Australia</option><option value="9">Austria</option><option value="10">Azerbaijan</option><option value="11">Bahamas</option><option value="12">Bahrain</option><option value="13">Bangladesh</option><option value="14">Barbados</option><option value="15">Belarus</option><option value="16">Belgium</option><option value="17">Belize</option><option value="18">Benin</option><option value="19">Bermuda</option><option value="20">Bhutan</option><option value="21">Bolivia</option><option value="325">Bonaire, Saint Eustatius and Saba</option><option value="22">Bosnia and Herzegovina</option><option value="23">Botswana</option><option value="181">Bouvet Island</option><option value="24">Brazil</option><option value="180">Brunei Darussalam</option><option value="25">Bulgaria</option><option value="26">Burkina Faso</option><option value="27">Burundi</option><option value="28">Cambodia</option><option value="29">Cameroon</option><option value="30">Canada</option><option value="31">Cape Verde</option><option value="32">Cayman Islands</option><option value="33">Central African Republic</option><option value="34">Chad</option><option value="35">Chile</option><option value="36">China</option><option value="185">Christmas Island</option><option value="37">Colombia</option><option value="204">Comoros</option><option value="38">Congo</option><option value="183">Cook Islands</option><option value="268">Costa Rica</option><option value="275">Cote D'Ivoire</option><option value="40">Croatia</option><option value="276">Cuba</option><option value="298">Curacao</option><option value="41">Cyprus</option><option value="42">Czech Republic</option><option value="318">Democratic Republic of the Congo</option><option value="43">Denmark</option><option value="44">Djibouti</option><option value="289">Dominica</option><option value="187">Dominican Republic</option><option value="45">Ecuador</option><option value="46">Egypt</option><option value="47">El Salvador</option><option value="48">Equatorial Guinea</option><option value="49">Eritrea</option><option value="50">Estonia</option><option value="51">Ethiopia</option><option value="189">Falkland Islands</option><option value="191">Faroe Islands</option><option value="52">Fiji</option><option value="53">Finland</option><option value="54">France</option><option value="193">French Guiana</option><option value="277">French Polynesia</option><option value="56">Gabon</option><option value="57">Gambia</option><option value="58">Georgia</option><option value="59">Germany</option><option value="60">Ghana</option><option value="194">Gibraltar</option><option value="61">Greece</option><option value="195">Greenland</option><option value="192">Grenada</option><option value="196">Guadeloupe</option><option value="62">Guam</option><option value="198">Guatemala</option><option value="270">Guernsey</option><option value="63">Guinea</option><option value="65">Guyana</option><option value="200">Haiti</option><option value="66">Honduras</option><option value="67">Hong Kong</option><option value="68">Hungary</option><option value="69">Iceland</option><option value="70">India</option><option value="71">Indonesia</option><option value="278">Iran</option><option value="279">Iraq</option><option value="74">Ireland</option><option value="323">Isle of Man</option><option value="75">Israel</option><option value="76">Italy</option><option value="202">Jamaica</option><option value="78">Japan</option><option value="288">Jersey  (Channel Islands)</option><option value="79">Jordan</option><option value="80">Kazakhstan</option><option value="81">Kenya</option><option value="203">Kiribati</option><option value="82">Kuwait</option><option value="83">Kyrgyzstan</option><option value="84">Lao People's Democratic Republic</option><option value="85">Latvia</option><option value="86">Lebanon</option><option value="87">Lesotho</option><option value="88">Liberia</option><option value="281">Libya</option><option value="90">Liechtenstein</option><option value="91">Lithuania</option><option value="92">Luxembourg</option><option value="208">Macau</option><option value="93">Macedonia</option><option value="94">Madagascar</option><option value="95">Malawi</option><option value="96">Malaysia</option><option value="97">Maldives</option><option value="98">Mali</option><option value="99">Malta</option><option value="207">Marshall Islands</option><option value="210">Martinique</option><option value="100">Mauritania</option><option value="212">Mauritius</option><option value="241">Mayotte</option><option value="101">Mexico</option><option value="102">Moldova, Republic of</option><option value="103">Monaco</option><option value="104">Mongolia</option><option value="290">Montenegro</option><option value="294">Montserrat</option><option value="105">Morocco</option><option value="106">Mozambique</option><option value="242">Myanmar</option><option value="107">Namibia</option><option value="108">Nepal</option><option value="109">Netherlands</option><option value="110">Netherlands Antilles</option><option value="213">New Caledonia</option><option value="111">New Zealand</option><option value="112">Nicaragua</option><option value="113">Niger</option><option value="114">Nigeria</option><option value="217">Niue</option><option value="214">Norfolk Island</option><option value="272">North Korea</option><option value="116">Norway</option><option value="117">Oman</option><option value="118">Pakistan</option><option value="222">Palau</option><option value="282">Palestine</option><option value="119">Panama</option><option value="219">Papua New Guinea</option><option value="120">Paraguay</option><option value="121">Peru</option><option value="122">Philippines</option><option value="221">Pitcairn</option><option value="123">Poland</option><option value="124">Portugal</option><option value="126">Qatar</option><option value="315">Republic of Kosovo</option><option value="127">Reunion</option><option value="128">Romania</option><option value="129">Russia</option><option value="130">Rwanda</option><option value="205">Saint Kitts and Nevis</option><option value="206">Saint Lucia</option><option value="324">Saint Martin</option><option value="237">Saint Vincent and the Grenadines</option><option value="132">Samoa (Independent)</option><option value="227">San Marino</option><option value="255">Sao Tome and Principe</option><option value="133">Saudi Arabia</option><option value="134">Senegal</option><option value="326">Serbia</option><option value="135">Seychelles</option><option value="136">Sierra Leone</option><option value="137">Singapore</option><option value="302">Sint Maarten</option><option value="138">Slovakia</option><option value="139">Slovenia</option><option value="223">Solomon Islands</option><option value="140">Somalia</option><option value="141">South Africa</option><option value="257">South Georgia and the South Sandwich Islands</option><option value="142">South Korea</option><option value="311">South Sudan</option><option value="143">Spain</option><option value="144">Sri Lanka</option><option value="293">Sudan</option><option value="146">Suriname</option><option value="225">Svalbard and Jan Mayen Islands</option><option value="147">Swaziland</option><option value="148">Sweden</option><option value="149">Switzerland</option><option value="285">Syria</option><option value="152">Taiwan</option><option value="260">Tajikistan</option><option value="153">Tanzania</option><option value="154">Thailand</option><option value="233">Timor-Leste</option><option value="155">Togo</option><option value="232">Tonga</option><option value="234">Trinidad and Tobago</option><option value="156">Tunisia</option><option value="157">Turkey</option><option value="158">Turkmenistan</option><option value="287">Turks &amp; Caicos Islands</option><option value="159">Uganda</option><option value="161">Ukraine</option><option value="162">United Arab Emirates</option><option value="262">United Kingdom</option><option value="163">Uruguay</option><option value="165">Uzbekistan</option><option value="239">Vanuatu</option><option value="166">Vatican City State (Holy See)</option><option value="167">Venezuela</option><option value="168">Vietnam</option><option value="169">Virgin Islands (British)</option><option value="238">Virgin Islands (U.S.)</option><option value="188">Western Sahara</option><option value="170">Yemen</option><option value="173">Zambia</option><option value="174">Zimbabwe</option></select>
+	</div>
+</div>
+<div class="mc-field-group size1of2">
+	<label for="mce-MMERGE8">Phone number </label>
+    <div class="phonefield phonefield-us">
+        (<span class="phonearea"><input class="phonepart " pattern="[0-9]*" id="mce-MMERGE8-area" name="MMERGE8[area]" maxlength="3" size="3" value="" type="text"></span>)
+        <span class="phonedetail1"><input class="phonepart " pattern="[0-9]*" id="mce-MMERGE8-detail1" name="MMERGE8[detail1]" maxlength="3" size="3" value="" type="text"></span> - 
+        <span class="phonedetail2"><input class="phonepart " pattern="[0-9]*" id="mce-MMERGE8-detail2" name="MMERGE8[detail2]" maxlength="4" size="4" value="" type="text"></span>
+		<span class="small-meta nowrap">(###) ###-####</span>
+    </div>
+
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7a433169dbb29c2ae1a1982b1_3392271e5c" tabindex="-1" value=""></div>
+
+<p><em>Slide the Money Button to complete the purchase</em></p>
 
 <!-- Money Button -->
 <div class="money-button"
  data-to="21534"
-  data-amount="2.00"
-  data-currency="CAD"
+  data-amount="1"
+  data-currency="BSV"
   data-label=""  data-client-identifier="9981645a3e83f2941b9574288e85d182"data-button-id="1654736646372"
   data-button-data="{}"
   data-type="buy"
@@ -395,46 +333,15 @@ video {
 
 <!-- Hidden content -->
 <div id="unlockable">
-<!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:300px;}
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://linktr.us14.list-manage.com/subscribe/post?u=7a433169dbb29c2ae1a1982b1&amp;id=3392271e5c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<h2>Submit NFT</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-<div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-	<label for="mce-MMERGE3">NFT Collection OR NFT Order URL </label>
-	<input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3">
-</div>
-<div class="mc-field-group">
-	<label for="mce-MMERGE4">Artist paymail for tips </label>
-	<input type="text" value="" name="MMERGE4" class="" id="mce-MMERGE4">
-</div>
-<div class="mc-field-group">
-	<label for="mce-MMERGE5">Artist website or twitter profile </label>
-	<input type="text" value="" name="MMERGE5" class="" id="mce-MMERGE5">
-</div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7a433169dbb29c2ae1a1982b1_3392271e5c" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+
+ <div class="clear"><input type="submit" value="Submit This Purchase!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='MMERGE2';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='MMERGE2';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='text';fnames[6]='MMERGE6';ftypes[6]='address';fnames[7]='MMERGE7';ftypes[7]='number';fnames[8]='MMERGE8';ftypes[8]='phone';fnames[9]='MMERGE9';ftypes[9]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
+
+
 <div class="modal-footer">
           <button type="button" class="button button5" data-dismiss="modal">Close</button>
 </Center>
@@ -445,116 +352,57 @@ video {
 
         </div>
 
-        <!-- Modal -->
-  <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1Label" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="Modal1Label">Tip Artist using Relay-X</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          
+        
 
-  <center>  Enter the amount in BSV that you would like to tip.
-<br> Your tip will be sent to the NFT creator paymail.
-<div class="money-button"
-  data-to="1NdycC1HoJrYRcVdCXA5YFBLTqXtdtFKQr"
-  data-editable="true"
-  data-currency="BSV"
-  data-label="TIP"  data-client-identifier="9981645a3e83f2941b9574288e85d182"data-button-id="1655928113233"
-  data-button-data="{}"
-  data-type="buy"
-></div>
-</center>       
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-     
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-
-
-
-
-<center> <h6><b>Browse Collections</b></h6>
+<center> <h6><b>Browse Merchandise</b></h6>
 </center>
 
 <div class="row">
 
 <div class="column-middle mx-auto col-xs-md-">
-   <center>
-   <video width="60%" height="25%" controls loop autplay
-          >
-  <source src="assets/img/video.mp4" type="video/mp4">
-</video>
-       
-    <p>Popsicle Stick #179</p>
-<a href='https://relayx.com/assets/4de59ac72eef7e6bc72403612555959c0991cac4b70964f53233458041942641_o2/df04e40bdcc873b0884544663f3b71de146cea685c4fa8cfe839c0a23ac49306_o3'>
- <button class="button button6" 
-                >Buy Now</button></a>
-       
-       
-       
-<!-- Button trigger modal -->
-<button type="button" class="button button6" data-toggle="modal" data-target="#Modal1">
-    Tip Artist!
-  </button>
   
-    
-<a href='https://twitter.com/asicbmf'><button class="button button6" 
-                >Follow</button></a>
+   <center><img src="assets/img/greenshiller.png"  width="300" height="300">
+       
+    <p>Green Shiller Killer Hoodie</p>
+<button type="button" class="button button7" data-toggle="modal" data-target="#exampleModal">
+    Buy with BSV
+    </button></center>
+    </div>
+       
 
-
-    </center>
-         
-        </div>
-    
-<!--middle content-->
-          <center>
-          <div class="row">
 <div class="column-middle mx-auto col-xs-md-">
 
+   <center><img src="assets/img/blueshiller.png"  width="300" height="300">
+       
+    <p>Blue Shiller Killer Hoodie</p>
+<button type="button" class="button button7" data-toggle="modal" data-target="#exampleModal">
+    Buy with BSV
+            </button> </center></div>
 
-   <img src="assets/img/glasses2.png"
-        width="60%"; height="25%";>
-       
-    <p>ApeHead Genesis</p>
-<a href='https://relayx.com/assets/4de59ac72eef7e6bc72403612555959c0991cac4b70964f53233458041942641_o2/df04e40bdcc873b0884544663f3b71de146cea685c4fa8cfe839c0a23ac49306_o3'>
- <button class="button button6" 
-                >Buy Now</button></a>
-       
-<button type="button" class="button button6" data-toggle="modal" data-target="#Modal1">
-    Tip Artist!
-  </button>
+<Center>
+<div class="row">
     
-     <a href='https://twitter.com/asicbmf'>
- <button class="button button6" 
-                >Follow </button></a>
-        </div>
-<!--right side content-->
-    <div class="container">
-        <div class="row">
-<div class="column-right mx-auto col-xs-md-">
+<div class="column-middle mx-auto col-xs-md-">
+<center>
+ <img src="assets/img/pinkshiller.png"  width="300" height="300">
+        
+    <p>Pink Shiller Killer Hoodie</p>
+<button type="button" class="button button7" data-toggle="modal" data-target="#exampleModal">
+    Buy with BSV
+            </button> </center></div>
+    
+<div class="column-middle mx-auto col-xs-md-">
+  <center>  
+ <img src="assets/img/grayshiller.png"  width="300" height="300">
+        
+    <p>Gray  Shiller Killer Hoodie</p>
+<button type="button" class="button button7" data-toggle="modal" data-target="#exampleModal">
+    Buy with BSV
+            </button> </center></div></Center>
+       
 
-<center><button type="button" class="button button7" data-toggle="modal" data-target="#exampleModal">
-    Submit NFT 
-    </button></center>
 
-    <center><h6><b>Support</b></h6>
-    <button type="button" class="button button7" data-toggle="modal" data-target="#exampleModal3">
-    Fund Features
-  </button>
-  
 
-</center>
         </div>
      
         
